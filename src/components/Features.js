@@ -5,7 +5,7 @@ const Feature = ({ iconName, heading, content }) => {
     return (
         <div className='feature'>
             <Icon iconClassName='feature__icon' iconName={iconName} />
-            <h4 className='heading-4'>{heading}</h4>
+            <h4 className='heading-4 heading-4--dark'>{heading}</h4>
             <p className='feature__text'>{content}</p>
         </div>
     );
